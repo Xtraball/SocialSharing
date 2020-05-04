@@ -2,7 +2,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
         id="SocialSharing"
-        version="5.4.0">
+        version="5.6.4">
 
   <name>SocialSharing</name>
 
@@ -80,6 +80,8 @@
     <source-file src="src/android/res/xml/sharing_paths.xml" target-dir="res/xml"/>
 
     <framework src="com.android.support:support-v4:27.+" />
+    <preference name="ANDROID_SUPPORT_V4_VERSION" default="27.+"/>
+
   </platform>
 
   <!-- wp8 -->
