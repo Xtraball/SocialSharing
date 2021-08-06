@@ -1,4 +1,4 @@
-﻿﻿var cordova = require('cordova');
+﻿var cordova = require('cordova');
 
 module.exports = {
     share: function (win, fail, args) {
